@@ -33,6 +33,21 @@
     --text-preset-7-font-weight: 400;
     --text-preset-7-line-height: 2.4rem;
     --text-preset-7-letter-spacing: 0.438rem;
+
+
+
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --grey-200: #D8D8D8;
+    --grey-300: #C5C6CE;
+
+    --navy-600: #5E607A;
+    --navy-900: #00001A;
+
+    --gold-400: #E9AA52;
+
+    --red-500: #F15D51;
 }
 
 
