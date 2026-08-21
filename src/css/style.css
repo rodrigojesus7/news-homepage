@@ -30,7 +30,7 @@
     --text-preset-6-letter-spacing: 0;
 
     --text-preset-7-font-size: 1.4rem;
-    --text-preset-7-font-weight: 400;
+    --text-preset-7-font-weight: 700;
     --text-preset-7-line-height: 2.4rem;
     --text-preset-7-letter-spacing: 0.438rem;
 
@@ -43,7 +43,7 @@
     --grey-300: #C5C6CE;
 
     --navy-600: #5E607A;
-    --navy-900: #00001A;
+    --navy-950: #00001A;
 
     --gold-400: #E9AA52;
 
@@ -55,4 +55,98 @@
 
 body {
     font-family: Inter, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100dvh;
+
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3.2rem;
+
+    padding: 2.8rem 1.6rem 8rem 1.6rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.header__logo {
+    width: 4.5rem;
+    height: 2.8rem;
+}
+
+.header__menu-icon {
+    width: 4rem;
+    height: 1.7rem;
+}
+
+.main-article {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 2.4rem;
+}
+
+.main-article__img {
+    width: 100%;
+}
+
+.main-article__text-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2.4rem;
+}
+
+.main-article__title {
+    font-size: var(--text-preset-2-font-size);
+    font-weight: var(--text-preset-2-font-weight);
+    line-height: var(--text-preset-2-line-height);
+    letter-spacing: var(--text-preset-2-letter-spacing);
+
+    color: var(--navy-950);
+
+    text-align: left;
+
+}
+
+.main-article__description {
+    font-size: var(--text-preset-6-font-size);
+    font-weight: var(--text-preset-6-font-weight);
+    line-height: var(--text-preset-6-line-height);
+    letter-spacing: var(--text-preset-6-letter-spacing);
+
+    color: var(--navy-600);
+
+    text-align: left;
+}
+
+.main-article__read-more-btn {
+    max-width: 18.5rem;
+    height: 4.8rem;
+
+    font-size: var(--text-preset-7-font-size);
+    font-weight: var(--text-preset-7-font-weight);
+    line-height: var(--text-preset-7-line-height);
+    letter-spacing: var(--text-preset-7-letter-spacing);
+
+    color: var(--navy-950);
+
+    text-align: center;
+
+    border: none;
+    background-color: var(--red-500);
 }
