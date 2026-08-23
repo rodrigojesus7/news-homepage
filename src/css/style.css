@@ -335,3 +335,7 @@ a {
     line-height: var(--text-preset-6-line-height);
     letter-spacing: var(--text-preset-6-letter-spacing);
 }
+
+.hidden{
+    display: none;
+}
