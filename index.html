@@ -21,13 +21,13 @@
 
 <body>
 
-    <div class="container">
+    <div class="container ">
 
         <header class="header">
             <a href=""><img src="./src/images/logo.svg" alt="" class="header__logo"></a>
 
 
-            <button>
+            <button class="header__menu-button">
                 <img src="./src/images/icon-menu.svg" alt="" class="header__menu-icon">
             </button>
 
@@ -38,13 +38,15 @@
             <article class="main-article">
 
                 <picture>
-                    <source media="(min-width: 768px)" srcset="./src/images/image-web-3-desktop.jpg">    
+                    <source media="(min-width: 768px)" srcset="./src/images/image-web-3-desktop.jpg">
                     <img src="./src/images/image-web-3-mobile.jpg" alt="" class="main-article__img">
                 </picture>
 
                 <div class="main-article__text-container">
                     <h1 class="main-article__title">The Bright Future of Web 3.0?</h1>
-                    <p class="main-article__description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                    <p class="main-article__description">We dive into the next evolution of the web that claims to put
+                        the power of the platforms back into the hands of the people. But is it really fulfilling its
+                        promise?</p>
                     <button class="main-article__read-more-btn">READ MORE</button>
                 </div>
 
@@ -81,7 +83,8 @@
                     <div class="post-section__post-info-container">
                         <span class="post-section__post-number">01</span>
                         <h3 class="post-section__post-title"><a href="">Reviving Retro PCs</a></h3>
-                        <p class="post-section__post-description">What happens when old PCs are given modern upgrades?</p>
+                        <p class="post-section__post-description">What happens when old PCs are given modern upgrades?
+                        </p>
                     </div>
                 </article>
 
@@ -112,6 +115,19 @@
     </div>
 
 
+    <nav class="overlay-menu">
+
+
+        <button class="overlay-menu__close-button"><img src="./src/images/icon-menu-close.svg" alt=""></button>
+
+        <ul class="overlay-menu__sections">
+            <li><a href="">Home</a></li>
+            <li><a href="">New</a></li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Trending</a></li>
+            <li><a href="">Categories</a></li>
+        </ul>
+    </nav>
 
 
 
