@@ -158,7 +158,7 @@ a {
     line-height: var(--text-preset-8-line-height);
     letter-spacing: var(--text-preset-8-letter-spacing);
 
-    transition: color 0.25s ease;
+    transition: 0.25s ease;
 }
 
 .overlay-menu__sections a:hover {
@@ -260,7 +260,10 @@ a {
     font-weight: var(--text-preset-3-font-weight);
     line-height: var(--text-preset-3-line-height);
     letter-spacing: var(--text-preset-3-letter-spacing);
+
 }
+
+
 
 .aside__articles-container {
     display: flex;
@@ -284,6 +287,14 @@ a {
     font-weight: var(--text-preset-4-font-weight);
     line-height: var(--text-preset-4-line-height);
     letter-spacing: var(--text-preset-4-letter-spacing);
+
+    transition: 0.25s ease;
+
+    cursor: pointer;
+}
+
+.aside__article h3:hover {
+    color: var(--gold-400);
 }
 
 .aside__article p {
