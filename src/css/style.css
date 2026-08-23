@@ -52,6 +52,8 @@
     --gold-400: #E9AA52;
 
     --red-500: #F15D51;
+
+    --overlay-effect-color: #00001A80;
 }
 
 
@@ -123,6 +125,8 @@ a {
 
     padding: 2.7rem 2.2rem;
 
+    z-index: 7;
+
     background-color: var(--white);
 }
 
@@ -156,7 +160,16 @@ a {
 }
 
 
+.overlay-effect{
+    position: fixed;
 
+    width: 100dvh;
+    height: 100dvh;
+
+    background-color: var(--overlay-effect-color);
+
+    z-index: 3;
+}
 
 
 .main-article {

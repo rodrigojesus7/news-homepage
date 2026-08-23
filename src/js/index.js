@@ -4,11 +4,16 @@ const overlayMenu = document.querySelector('.overlay-menu')
 
 const closeMenuButton = document.querySelector('.overlay-menu__close-button')
 
+const overlayEffect = document.querySelector('.overlay-effect')
+
 openMenuButton.addEventListener('click', () => {
     overlayMenu.classList.remove('hidden')
+    overlayEffect.classList.remove('hidden')
 })
 
 
 closeMenuButton.addEventListener('click', () => {
     overlayMenu.classList.add('hidden')
+    overlayEffect.classList.add('hidden')
+
 })
