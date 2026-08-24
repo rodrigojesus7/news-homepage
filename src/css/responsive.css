@@ -5,9 +5,55 @@
 
     }
 
-    .aside{
+    .aside {
         padding: 3.2rem 4rem;
     }
 
+}
 
+
+@media (min-width: 90rem) {
+
+    .container {
+
+        padding: 8.9rem 16.3rem 12.6rem 16.3rem;
+
+    }
+
+    .header__menu-button {
+        display: none;
+    }
+
+    .header__logo {
+        width: 6.4rem;
+        height: 4rem;
+    }
+
+    .desktop-menu__sections {
+        display: flex;
+        gap: 4rem;
+
+        font-size: var(--text-preset-6-font-size);
+        font-weight: var(--text-preset-6-font-weight);
+        line-height: var(--text-preset-6-line-height);
+        letter-spacing: var(--text-preset-6-letter-spacing);
+
+        color: var(--navy-600);
+
+        transition: 0.25s ease;
+    }
+
+    .desktop-menu__sections a {
+
+        transition: 0.25s ease;
+    }
+
+    .desktop-menu__sections a:hover {
+        color: var(--red-500);
+    }
+
+    .desktop-menu__sections a:focus {
+        color: var(--red-500);
+        outline: none;
+    }
 }
