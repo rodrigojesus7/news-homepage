@@ -11,6 +11,8 @@ openMenuButton.addEventListener('click', () => {
     overlayEffect.classList.remove('hidden')
 
     openMenuButton.setAttribute('aria-expanded', 'true')
+
+    closeMenuButton.focus()
 })
 
 
@@ -19,4 +21,16 @@ closeMenuButton.addEventListener('click', () => {
     overlayEffect.classList.add('hidden')
 
     openMenuButton.setAttribute('aria-expanded', 'false')
+
+    openMenuButton.focus()
+})
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        overlayMenu.classList.add('hidden')
+        overlayEffect.classList.add('hidden')
+
+        openMenuButton.setAttribute('aria-expanded', 'false')
+        openMenuButton.focus()
+    }
 })
