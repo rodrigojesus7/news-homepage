@@ -209,6 +209,9 @@ a {
 
 .main-article__img {
     width: 100%;
+
+    aspect-ratio: 343 / 300;
+    object-fit: cover;
 }
 
 .main-article__text-container {
