@@ -182,10 +182,13 @@ a {
     line-height: var(--text-preset-6-line-height);
     letter-spacing: var(--text-preset-6-letter-spacing);
 
-    color: var(--navy-600);
 }
 
+.desktop-menu__sections a {
 
+    color: var(--navy-600);
+
+}
 
 
 .overlay-effect {
