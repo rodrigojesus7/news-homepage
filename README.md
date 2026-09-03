@@ -2,7 +2,7 @@
 
 A responsive news homepage built as a Frontend Mentor challenge, focusing on responsive layouts, semantic HTML, accessibility, and performance.
 
-![News Homepage Screenshot](./src/images/preview.jpg.jpg)
+![News Homepage Screenshot](./src/images/preview.jpg)
 
 ### 🔗 Links
 
